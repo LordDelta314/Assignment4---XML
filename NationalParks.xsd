@@ -2,47 +2,43 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
 	<!-- National Parks Root -->
-	<xs:element name="NationalParks">
-		<xs:complexType>
-			<xs:sequence>
+	<xs:element name="NationalParks" type="NationalParksType"/>
 
-				<!-- National Park Elements -->
-				<xs:element name="NationalPark" maxOccurs="unbounded">
-					<xs:complexType>
-						<xs:sequence>
+	<xs:complexType name="NationalParksType">
+		<xs:sequence>
+			<!-- National Park Elements -->
+			<xs:element name="NationalPark" type="NationalParkType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
 
-							<!-- Child Elements (name, phone) -->
-							<xs:element name="Name" type="xs:string"/>
-							<xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
+	<xs:complexType name="NationalParkType">
+		<xs:sequence>
+			<!-- Child Elements(name, phone, address) -->
+			<xs:element name="Name" type="xs:string"/>
+			<xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
+			<xs:element name="Address" type="AddressType"/>
+		</xs:sequence>
+		<!-- Optional/Required attributes -->
+		<xs:attribute name="Rating" type="xs:decimal" use="optional"/>
+		<xs:attribute name="NearestAirport" type="xs:string" use="required"/>
+	</xs:complexType>
 
-							<!-- Unique Complex Element Address-->
-							<xs:element name="Address">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:element name="Number" type="xs:int"/>
-										<xs:element name="Street" type="xs:string"/>
-										<xs:element name="City" type="xs:string"/>
-										<xs:element name="State">
-											<xs:simpleType>
-												<xs:restriction base="xs:string">
-													<xs:length value="2"/>
-												</xs:restriction>
-											</xs:simpleType>
-										</xs:element>
-										<xs:element name="Zip" type="xs:string"/>
-									</xs:sequence>
-								</xs:complexType>
+	<!-- Unique Complex Element for address -->
+	<xs:complexType name="AddressType">
+		<xs:sequence>
+			<xs:element name="Number" type="xs:int"/>
+			<xs:element name="Street" type="xs:string"/>
+			<xs:element name="City" type="xs:string"/>
+			<xs:element name="State" type="StateType"/>
+			<xs:element name="Zip" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
 
-							</xs:element>
+	<!-- Unique Simple Element for state-->
+	<xs:simpleType name="StateType">
+		<xs:restriction base="xs:string">
+			<xs:length value="2"/>
+		</xs:restriction>
+	</xs:simpleType>
 
-						</xs:sequence>
-
-						<!-- Optinal/Required Attributes (Rating, NearestAirport) -->
-						<xs:attribute name="Rating" type="xs:decimal" use="optional"/>
-						<xs:attribute name="NearestAirport" type="xs:string" use="required"/>
-					</xs:complexType>
-				</xs:element>				
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
 </xs:schema>
