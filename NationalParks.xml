@@ -3,6 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/LordDelta314/Assignment4---XML/main/NationalParks.xsd">
 
+	<!-- Grand Canyon National Park(from example) -->
 	<NationalPark NearestAirport="FlagStaff" Rating="4.9">
 		<Name>Grand Canyon</Name>
 
@@ -19,6 +20,7 @@
 		</Address>
 	</NationalPark>
 
+	<!-- Arcadia National Park -->
 	<NationalPark NearestAirport="Trenton">
 		<Name>Acadia National Park</Name>
 
@@ -33,6 +35,7 @@
 		</Address>
 	</NationalPark>
 
+	<!-- Badlands National Park -->
 	<NationalPark NearestAirport="Rapid City" Rating="4.8">
 		<Name>Badlands National Park</Name>
 
@@ -47,6 +50,7 @@
 		</Address>
 	</NationalPark>
 
+	<!-- Big Bend National Park -->
 	<NationalPark NearestAirport="Midland">
 		<Name>Big Bend National Park</Name>
 
@@ -62,6 +66,7 @@
 		</Address>
 	</NationalPark>
 
+	<!-- Capitol Reef National Park -->
 	<NationalPark NearestAirport="Grand Junction" Rating="4.7">
 		<Name>Capitol Reef National Park</Name>
 
@@ -77,6 +82,7 @@
 		</Address>
 	</NationalPark>
 
+	<!-- Death Valley National Park -->
 	<NationalPark NearestAirport="Furnace Creek">
 		<Name>Death Valley National Park</Name>
 
@@ -93,6 +99,7 @@
 		</Address>
 	</NationalPark>
 
+	<!-- Everglades National Park -->
 	<NationalPark NearestAirport="Miami" Rating="4.5">
 		<Name>Everglades National Park</Name>
 
@@ -107,6 +114,7 @@
 		</Address>
 	</NationalPark>
 
+	<!-- Gates of the Arctic National Park -->
 	<NationalPark NearestAirport="Fairbanks">
 		<Name>Gates of the Arctic National Park</Name>
 
@@ -122,6 +130,7 @@
 		</Address>
 	</NationalPark>
 
+	<!-- Hawai'i Volcanoes National Park -->
 	<NationalPark NearestAirport="Hilo" Rating="4.7">
 		<Name>Hawai'i Volcanoes National Park</Name>
 
@@ -138,6 +147,7 @@
 		</Address>
 	</NationalPark>
 
+	<!-- Joshua Tree National Park -->
 	<NationalPark NearestAirport="Palm Springs">
 		<Name>Joshua Tree National Park</Name>
 
@@ -152,6 +162,7 @@
 		</Address>
 	</NationalPark>
 
+	<!-- Mammoth Cave National Park -->
 	<NationalPark NearestAirport="Louisville Muhammad Ali">
 		<Name>Mammoth Cave National Park</Name>
 
