@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<NationalParks>
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/LordDelta314/Assignment4---XML/main/NationalParks.xsd">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NationalParks
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/LordDelta314/Assignment4---XML/main/NationalParks.xsd">
 
-	<NationalPark Rating="4.9" NearestAirport="FlagStaff">
+	<NationalPark NearestAirport="FlagStaff" Rating="4.9">
 		<Name>Grand Canyon</Name>
 
 		<Phone>928-638-7496</Phone>
@@ -33,7 +33,7 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark Rating="4.8" NearestAirport="Rapid City">
+	<NationalPark NearestAirport="Rapid City" Rating="4.8">
 		<Name>Badlands National Park</Name>
 
 		<Phone>605-433-5361</Phone>
@@ -62,7 +62,7 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark Rating="4.7" NearestAirport="Grand Junction">
+	<NationalPark NearestAirport="Grand Junction" Rating="4.7">
 		<Name>Capitol Reef National Park</Name>
 
 		<Phone>435-425-3791</Phone>
@@ -93,7 +93,7 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark Rating="4.5" NearestAirport="Miami">
+	<NationalPark NearestAirport="Miami" Rating="4.5">
 		<Name>Everglades National Park</Name>
 
 		<Phone>305-242-7700</Phone>
@@ -122,7 +122,7 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark Rating="4.7" NearestAirport="Hilo">
+	<NationalPark NearestAirport="Hilo" Rating="4.7">
 		<Name>Hawai'i Volcanoes National Park</Name>
 
 		<Phone>808-985-6011</Phone>
