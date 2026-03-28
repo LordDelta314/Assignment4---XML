@@ -36,7 +36,7 @@
 	</NationalPark>
 
 	<!-- ERROR 4: Address Element has no closing tag! -->
-	<NationalPark NearestAirport="Rapid City" Rating="4.8">
+	<NationalPark Rating="4.8" NearestAirport="Rapid City">
 		<Name>Badlands National Park</Name>
 
 		<Phone>605-433-5361</Phone>
@@ -75,7 +75,7 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark NearestAirport="Grand Junction" Rating="4.7">
+	<NationalPark Rating="4.7" NearestAirport="Grand Junction">
 		<Name>Capitol Reef National Park</Name>
 
 		<Phone>435-425-3791</Phone>
@@ -106,7 +106,7 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark NearestAirport="Miami" Rating="4.5">
+	<NationalPark Rating="4.5" NearestAirport="Miami">
 		<Name>Everglades National Park</Name>
 
 		<Phone>305-242-7700</Phone>
@@ -135,7 +135,7 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark NearestAirport="Hilo" Rating="4.7">
+	<NationalPark Rating="4.7" NearestAirport="Hilo">
 		<Name>Hawai'i Volcanoes National Park</Name>
 
 		<Phone>808-985-6011</Phone>

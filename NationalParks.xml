@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <NationalParks>
 
-	<NationalPark NearestAirport="FlagStaff" Rating="4.9">
+	<NationalPark Rating="4.9" NearestAirport="FlagStaff">
 		<Name>Grand Canyon</Name>
 
 		<Phone>928-638-7496</Phone>
-		<Phone>868-297-2757</Phone>
-		<Phone>860-499-2574</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
 
 		<Address>
 			<Number>8</Number>
@@ -31,7 +31,7 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark NearestAirport="Rapid City" Rating="4.8">
+	<NationalPark Rating="4.8" NearestAirport="Rapid City">
 		<Name>Badlands National Park</Name>
 
 		<Phone>605-433-5361</Phone>
@@ -60,7 +60,7 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark NearestAirport="Grand Junction" Rating="4.7">
+	<NationalPark Rating="4.7" NearestAirport="Grand Junction">
 		<Name>Capitol Reef National Park</Name>
 
 		<Phone>435-425-3791</Phone>
@@ -91,7 +91,7 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark NearestAirport="Miami" Rating="4.5">
+	<NationalPark Rating="4.5" NearestAirport="Miami">
 		<Name>Everglades National Park</Name>
 
 		<Phone>305-242-7700</Phone>
@@ -120,7 +120,7 @@
 		</Address>
 	</NationalPark>
 
-	<NationalPark NearestAirport="Hilo" Rating="4.7">
+	<NationalPark Rating="4.7" NearestAirport="Hilo">
 		<Name>Hawai'i Volcanoes National Park</Name>
 
 		<Phone>808-985-6011</Phone>
